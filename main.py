@@ -1,7 +1,7 @@
 from follow_bot import spotify
 import threading
 
-spotify_profile = "https://open.spotify.com/user/..." #Link or username to profile
+spotify_profile = "31cjkf4q4b4rl7o2wjuah2bnnn5y" #Link or username to profile
 lock = threading.Lock()
 threads = int(input("\nThreads: "))
 counter = 0
